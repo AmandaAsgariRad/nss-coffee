@@ -1,0 +1,53 @@
+body {
+    background-color: rgb(235, 218, 160);
+}
+
+header {
+    text-align: center;
+    color: rgb(85, 54, 4);
+    background-color: rgb(228, 162, 86);
+    padding: 0.5em;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.shop1, .shop2, .shop3 {
+    margin: 1em;
+    flex: auto;
+}
+
+.name {
+    border: 3px solid rgb(228, 162, 86);
+    padding: 0.5em;
+    color: rgb(85, 54, 4);
+}
+
+h3 {
+    text-align: center;
+    background-color: rgb(228, 162, 86);
+    margin: 1.5em; 
+}
+
+h4 {
+    text-align: center;
+}
+
+.line {
+    border: 1px dashed black;
+    margin: 1.5em;
+}
+
+h1 {
+    border: 3px solid rgb(85, 54, 4);
+    padding: 0.5em;
+    margin: 1px;
+
+}
+
+img {
+    padding: 1em;
+}
